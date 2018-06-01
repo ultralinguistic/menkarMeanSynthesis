@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="vendors/bootstrap.min.css">
+    <title>MEAN Stack Synthesis</title>
+</head>
+<body>
+    <h1>MEAN Stack Synthesis</h1>
+    <div ng-app="myApp">
+        <div ng-controller="GarageController as GC" class="container"> 
+            <h2>New Car:</h2>
+            <div id="input">
+                <input type="number" placeholder="year" ng-model="GC.yearIn">
+                <input type="text" placeholder="make" ng-model="GC.makeIn">
+                <input type="text" placeholder="model" ng-model="GC.modelIn">
+                <input type="text" placeholder="odometer" ng-model="GC.odometerIn">
+                <button ng-click="GC.addCar()">Add Car</button>
+            </div>
+            <div id="output">
+                <h2>Cars In Garage:</h2>
+                <ul>
+                    <li>1968 VW Super Beetle: 300000</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
