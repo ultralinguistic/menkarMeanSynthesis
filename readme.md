@@ -16,7 +16,7 @@ Part 2 [vid link](https://vimeo.com/272939939)
 - server side module for /garage routes
 - client/server handshake
 
-Part 3 [vid link](VIMEO)
+Part 3 [vid link](https://vimeo.com/272949042)
 ---
 
 - mongo integration
