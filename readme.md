@@ -10,7 +10,7 @@ Part 1: [vid link](https://vimeo.com/272879378)
 - angularJs app and controller setup
 - basic interface
 
-Part 2 [vid link](VIMEO)
+Part 2 [vid link](https://vimeo.com/272939939)
 ---
 
 - server side module for /garage routes
@@ -21,7 +21,7 @@ Part 3 [vid link](VIMEO)
 
 - mongo integration
 
-Part 4 [vid link](VIMEO)
+Part 4 [vid link](https://vimeo.com/272945844)
 ---
 
 - styling (bootstrap)
