@@ -9,7 +9,7 @@ app.use( express.static( 'server/public' ) );
 app.use( bodyParser.json() );
 app.use( '/garage', garage );
 // globals
-let port = 5000 | process.env.PORT;
+let port = process.env.MONGODB_URI | 5000;
 // connect to db w/ mongoose
 const DBURL = 'mongodb://localhost:27017/garage';
 mongoose.connect( DBURL );
